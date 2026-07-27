@@ -1,0 +1,21 @@
+{
+  "repo": "hi-marley",
+  "feeds": [
+    {
+      "source": "https://www.himarley.com/feed/",
+      "feed_url": "https://www.himarley.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.himarley.com",
+      "feed_url": "https://www.himarley.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 8,
+  "fetched": "2026-07-25T15:00:33Z"
+}

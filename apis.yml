@@ -1,8 +1,15 @@
 aid: hi-marley
 name: Hi Marley
-description: 'Hi Marley is a company surfaced as a portfolio company of emergence-capital, true-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: insurance-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Hi Marley is an intelligent conversational platform built for the property
+  and casualty (P&C) insurance industry, delivering carrier-to-policyholder communication
+  over SMS. The platform connects carriers, policyholders, and service providers through
+  a single messaging fabric to streamline claims — including Conversational FNOL (First
+  Notice of Loss) intake, Total Loss Assist for auto claims, and Workflow Assist for
+  property claims — layered with AI coaching, sentiment analysis, and data insights.
+  Trusted by 130+ carriers, including four of the top ten U.S. insurers across auto,
+  property, and workers compensation lines. Hi Marley is backed by Emergence Capital
+  and True Ventures. No public developer platform, API documentation, or self-service
+  onboarding was found; the product is delivered as a closed SaaS to insurance carriers.'
 url: https://raw.githubusercontent.com/api-evangelist/hi-marley/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,32 @@ x-backed-by:
 - true-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.himarley.com/wp-content/uploads/2021/10/FB_2.png
 tags:
 - Company
 - Insurance Tech
+- Insurance
+- Claims
+- Messaging
+- SMS
+- Conversational AI
+- Property and Casualty
+- Customer Communications
+- FNOL
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hi-marley-domain-security.yml
 - type: Website
   url: https://www.himarley.com
+- type: Blog
+  url: https://www.himarley.com/blog
+- type: Support
+  url: https://www.himarley.com/contact-us/
+- type: TermsOfService
+  url: https://www.himarley.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.himarley.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
